@@ -1,6 +1,6 @@
 # Processing Theme
 
-My personal theme for the Processing IDE
+My personal theme for the Processing IDE. Based off of ahmetsulek flat.terminal theme (https://github.com/ahmetsulek/flat-terminal)
 
 ## Setup
 
