@@ -1,0 +1,103 @@
+#
+# TABS
+# Settings for the tab area at the top.
+
+header.bgcolor = #000000
+header.hide.image = false
+header.hide.color = #000000
+header.text.selected.color = #ecf0f1
+header.text.unselected.color = #bec3c7
+header.text.font = processing.sans,plain,14
+header.tab.selected.color = #1d2630
+header.tab.unselected.color = #111111
+
+
+#
+# TOOLBAR BUTTONS
+
+buttons.bgcolor = #0e1217
+#buttons.hide.image = false
+buttons.hide.color = #0e1217
+buttons.bgimage = true
+
+
+#
+# TOOLBAR BUTTON TEXT
+
+buttons.status.font = processing.sans,plain,13
+buttons.status.color = #4994d5
+
+
+#
+# MODE SELECTOR
+
+mode.button.font = processing.sans,plain,12
+# outline color of the mode button
+mode.button.color = #2c3b4b
+
+
+#
+# EDITOR - DETAILS
+
+# foreground and background colors
+editor.fgcolor = #ecf0f1
+editor.bgcolor = #1d2630
+
+# highlight for the current line
+editor.linehighlight.color=#2e3d4f
+# highlight for the current line
+editor.linehighlight=true
+
+# caret blinking and caret color
+editor.caret.color = #ed9d3c
+
+# color to be used for background when 'external editor' enabled
+editor.external.bgcolor = #1d2630
+
+# selection color
+editor.selection.color = #ebc647
+
+# area that's not in use by the text (replaced with tildes)
+editor.invalid.style = #bec3c7,bold
+
+# little pooties at the end of lines that show where they finish
+editor.eolmarkers = false
+editor.eolmarkers.color = #bec3c7
+
+# bracket/brace highlighting
+editor.brackethighlight = true
+editor.brackethighlight.color = #3d7fb6
+
+
+#
+# STATUS
+# Status messages (1 file added to sketch, errors, etc)
+
+status.notice.fgcolor = #1d2630
+status.notice.bgcolor = #bec3c7
+status.error.fgcolor = #ecf0f1
+status.error.bgcolor = #e04742
+status.edit.fgcolor = #1d2630
+status.edit.bgcolor = #ebc647
+#status.font = SansSerif,plain,12
+#status.font.macosx = Helvetica,plain,12
+status.font = processing.sans,plain,13
+
+
+#
+# CONSOLE
+# The font is handled by preferences, so its size/etc are modifiable.
+
+console.color = #212121
+console.output.color = #bec3c7
+console.error.color = #e04742
+
+
+#
+# LINE STATUS
+# The editor line number status bar at the bottom of the screen
+
+linestatus.color = #ecf0f1
+linestatus.bgcolor = #111111
+linestatus.font = processing.sans,plain,12
+linestatus.height  = 20
